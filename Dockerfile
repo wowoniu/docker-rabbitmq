@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM ubuntu:1404-163
+FROM zhiqiangvip/docker-ubuntu1404-163
 
 # Add files.
 ADD bin/rabbitmq-start /usr/local/bin/
